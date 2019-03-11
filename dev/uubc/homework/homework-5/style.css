@@ -1,0 +1,33 @@
+#main-head {
+    text-align: center;
+}
+
+#timer {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#q2 {
+    text-align: center;
+}
+
+body {
+    background-image: url(./gearBackground.jpeg);
+}
+
+#questions {
+    background-color: white;
+    z-index: 90;
+
+}
+
+#submitButton {
+    background-color: blue;
+}
+
+#hideQuestions {
+    display: none;
+}

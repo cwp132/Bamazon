@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://www.gstatic.com/firebasejs/5.0.0/firebase-database.js">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+</head>
+
+<title>Christian Petersen</title>
+</head>
+
+<body>
+
+    <div id="bioJumbo" class="jumbotron jumbotron-fluid text-center">
+        <div id="bio" class="container text-center">
+            <div class="row">
+                <h1 class="display-4">Christian Petersen</h1>
+                <div class="container">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./christian.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://github.com/cwp132" target="_blank" class=" card-link">Github</a>
+                            <a href="https://www.linkedin.com/in/christian-petersen-33198a174/" target="_blank"
+                                class="card-link">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="lead">
+                    I am a student at The Univirsity of Utah's Coding Bootcamp<br>
+                    My current job is a wearhouse manager at Tim Dahle Nissan<br>
+                    I love to learn and I love to work hard.<br>
+                    Outside of coding i enjoy working on cars, playing video <br>
+                    games, and hiking. <br>
+
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <h2 id="projects">Projects</h2><br>
+    <div class="container fa fa-align-center" aria-hidden="true"></i>
+        <div class="row" id="techCode">
+            <div class="card" style="width: 18rem;">
+                <img src="./CHAT-meME.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        CHAT.MEme is a GIF based chat app, this
+                        project was the first group project I collaborated in.
+                        I taught me about the importance of comunication as a team.
+                    </p>
+                    <a href="https://chat-meme-3fbf6.firebaseapp.com/"" target=" _blank"
+                        class=" card-link">CHAT.MEme</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./crystal-collector.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Crystal Collector is a </p>
+                    <a href="https://cwp132.github.io/The-Crystal-Collector/" target="_blank" class="card-link">Crystal
+                        Collector</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./car-trivia.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="https://cwp132.github.io/The-Car-Trivia-Game/" target="_blank" class="card-link">Car Trivia
+                        Game</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </dic>
+    <div id="bioJumbo" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Tech, librarys, and Launguages</h1>
+            <div class="container row">
+                <div class="card" style="width: 18rem;">
+                    <img src="./javascript.png" id="javascript" class="card-img-top" alt="javaScript logo">
+                    <div class="card-body">
+                        <p class="card-text">javaScript</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./jquery-logo.png" class="card-img-top" id="jQuery" alt="jQuery logo">
+                    <div class="card-body">
+                        <p class="card-text">jQuery</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./ajax.svg" class="card-img-top" id="ajax" alt="AJAX logo">
+                    <div class="card-body">
+                        <p class="card-text">AJAX</p>
+                    </div>
+                </div>
+
+                <div class="container row">
+                    <div class="card" id="firebaseCard" style="width: 18rem;">
+                        <img src="./firebase-logo.png" class="card-img-top" id="firebase-logo" alt="firebase logo">
+                        <div class="card-body">
+                            <p class="card-text">Firebase</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./bootstrap-logo.jpg" id="bootstrap" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Bootstrap</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="nodejs-logo.png" id="node.js" class="card-img-top" alt="node.js logo">
+                        <div class="card-body">
+                            <p class="card-text">Node.js</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div id="contact-header" class="container">
+        <h2>Contact me</h2>
+    </div>
+
+
+    <form>
+        <div id="contact-form" class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter name">
+        </div>
+        <div id="contact-form" class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="InputMessage">Message</label>
+            <textarea class="form-control" id="textarea" rows="3"></textarea>
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+    </div>
+
+</body>
+
+<script src="./storage.js"></script>
+
+</html>

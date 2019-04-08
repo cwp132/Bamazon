@@ -1,0 +1,29 @@
+.card {
+    margin: 15px;
+}
+
+#projects {
+    text-align: center;
+}
+
+#contact-header {
+    text-align: center;
+}
+
+form {
+    margin: 80px;
+}
+
+#email-input {
+    margin: 15px, 0px, 15px, 0px;
+}
+
+#contact-input {
+    width: 600px;
+}
+
+.con {
+    margin: 0px, 0px, 0px, 300px;
+}
+
+#bio

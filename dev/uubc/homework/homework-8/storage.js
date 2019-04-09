@@ -14,15 +14,16 @@ firebase.initializeApp(config);
 var database = firebase.database.ref();
 
 $("#submit").on('click', function () {
+    event.preventDefault;
     var name = $("#nameInput").val();
     var email = $("#emailInput").val();
     var message = $("#messageInput").val();
 
     var database = database().ref();
 
-    name.val("");
-    email.val("");
-    message.val("");
+    name.empty();
+    email.empty();
+    message.empty();
 
     database.ref().push({
         name: name,

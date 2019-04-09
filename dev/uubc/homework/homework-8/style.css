@@ -2,6 +2,14 @@
     margin: 15px;
 }
 
+#bio-text {
+    text-align: center;
+}
+
+#please-work {
+    margin-left: 300px;
+}
+
 #projects {
     text-align: center;
 }
@@ -10,20 +18,50 @@
     text-align: center;
 }
 
+#techCode {
+    margin-left: 80px;
+}
+
 form {
     margin: 80px;
 }
 
-#email-input {
-    margin: 15px, 0px, 15px, 0px;
+#firebase-logo {
+    margin: 35px;
+    height: 270px;
+    width: 220px;
 }
 
-#contact-input {
-    width: 600px;
+#firebase-text {
+    margin-top: 50px;
 }
 
-.con {
-    margin: 0px, 0px, 0px, 300px;
+#node.js-logo {
+    margin: 60px;
 }
 
-#bio
+#bio {
+    margin-left: 200px;
+}
+
+#contact-head {
+    margin-left: 635px;
+}
+
+
+#node-text {
+    margin-top: 95px;
+}
+
+#num {
+    margin-right: 90px;
+
+}
+
+#email {
+    margin-left: 35px;
+}
+
+#tech {
+    margin-left: 75px;
+}
